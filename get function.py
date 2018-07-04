@@ -2,7 +2,8 @@
 " where a key is not in a dictionary"
 " we can reduce four lines down to one and eliminate the if statement"
 
-words=open('words.txt')
+ent=inout('enter file name')
+words=open(ent)
 d=dict()
 ftext=words.read()
 word=ftext.split()
